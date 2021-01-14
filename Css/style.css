@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+/* This is top head section start */
+.top_section {
+    padding: 0px 0px 100px 0px;
+    background-color: #fffbf0;
+}
+
+#section_image1 {
+    height: 40px;
+}
+#section_image{
+    width: 100%;
+}
+#heading_text{
+    font-family: "Franklin Gothic Heavy";
+    font-size: 50px;
+    font-weight: bold;
+    color:#000000ba;
+}
+#heading_paragraph {
+    padding-right: 153px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #696969;
+}
+.btn_control {
+    padding: 15px 30px;
+    margin-top: 20px;
+}
+/* This is top head section end */
+/* This is navbar start */
+.navbar .brand-navbar img:hover
+{
+    opacity: 0.7;
+}
+.navbar ul
+{
+padding: 0px 30px 0px 0px;
+}
+.navbar ul li a{
+    color: #15b000;
+    margin: 10px 0px 0px 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.navbar ul li a .fas{
+    padding-right:5px; 
+    padding-left:5px; 
+}
+.navbar ul li a:hover{
+    color: #15b000;
+}
+.navbar ul li.active > a {
+    color: #15b000;
+    font-weight: bold;
+    font-size: 12px;
+    border-left: 3px solid #15b000;
+    border-radius: 40px;
+}
+.iconStyle
+{
+    color: #15b000;
+}
+/* This is navbar end */
+/* This is main and footer start */
+.women_suit_wrapper{
+    border-radius: 15px;
+    border: none;
+}
+.women_suit {
+    padding: 38px;
+    background:#9292922e;
+    border-radius: 41px;
+    overflow: hidden;
+    margin: 15px;
+    height: 325px;
+    position: relative;
+}
+.hidden_prise{
+    position:absolute;
+    top: 325px;
+    width: 100%;
+    padding: 150px 0px;
+    left: 0;
+    border-radius: 20px;
+    text-align: center;
+    background: #198754a6;
+    transition: 0.2s;
+}
+.women_suit:hover .hidden_prise {
+    top:0px;
+    
+}
+.card-img-top{
+    height: 100%;
+    width: 100%;
+}
+.prise {
+    width: 50%;
+    float: left;
+}
+.cart_footer {
+    padding: 15px 10px 15px 12px;
+}
+.prise_button {
+    width: 50%;
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+.women_categories{
+    padding:70px 0px;
+}
+.women_categories h1{
+    color: #000000cc;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: arial black;
+}
+
+.about_section{
+    padding: 90px 0px;
+}
+.instraction:hover{
+   
+    color:#15b000;
+
+}
+/* This is main and footer part end */
